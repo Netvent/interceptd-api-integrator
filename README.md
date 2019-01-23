@@ -10,7 +10,7 @@ Interceptd-api-integrator consumes SNS events. That's why, presumably you create
 
 You should install Go in your local computer to compile and set GOPATH variable appropriately. 
 
-When you create AWS Lambda function, you have create with these properties
+When you create AWS Lambda function, the properties should be like below;
 
 ```
 Runtime: Go 1.x
